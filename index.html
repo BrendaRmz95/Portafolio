@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PORTAFOLIO 2024</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">INFORMACION</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/BrendaYNorma.jpeg" alt="">
+            </div>
+            <h1>Brenda/Norma  </h1>
+           
+            <h2>Ingeniero en Sistemas - Programacion Web</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/normaahide/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/ahide_burciaga"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://mx.linkedin.com/in/norma-ahide-burciaga-baez-b47a7b232"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre nosotras</h2>
+            <p><span>Hola, somos Brenda Ramirez y Norma Burciaga</span>
+                Dos entusiastas estudiantes del Instituto Tecnológico de Piedras Negras (ITPN) en la carrera de Ingeniería de Sistemas Computacionales. Desde el momento en que nos conocimos en las aulas del ITPN, descubrimos una pasión compartida por explorar el vasto mundo de la tecnología y la informática.
+
+                Nuestra formación académica nos ha brindado la oportunidad de sumergirnos en diversos campos, desde el diseño de redes de computadoras hasta el desarrollo de aplicaciones web. A lo largo de nuestros estudios, hemos adquirido habilidades sólidas en áreas como administración de bases de datos, programación orientada a objetos y seguridad informática.
+                
+                Además de nuestro compromiso con la excelencia académica, también nos destacamos por nuestra actitud proactiva y nuestra capacidad para trabajar en equipo. Hemos participado en proyectos colaborativos que nos han permitido aplicar nuestros conocimientos teóricos en entornos prácticos y dinámicos. Nos encanta enfrentar nuevos desafíos y estamos constantemente buscando oportunidades para crecer y aprender.
+                
+                Fuera del aula, nos apasiona explorar las últimas tendencias tecnológicas y participar en eventos y conferencias relacionadas con nuestra área de estudio. Creemos firmemente en la importancia de la educación continua y estamos comprometidas con seguir aprendiendo y mejorando nuestras habilidades en el campo de la ingeniería de sistemas computacionales.
+                
+                Estamos emocionadas de seguir nuestro camino en esta emocionante disciplina y estamos seguras de que nuestras habilidades y dedicación nos llevarán a alcanzar nuestras metas profesionales. Nos encantaría conectar con otros profesionales y estudiantes que compartan nuestra pasión por la tecnología, ¡así que no dudes en ponerte en contacto con nosotras!
+                
+                ¡Gracias por conocer un poco más sobre nosotras!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            22-12-1998
+                            13-11-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            8781380785
+                            8781572622
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Ahideburciaga_924@hotmail.com
+                           <center>aracely.brenda@hotmail.com</center> 
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.emiweb.es
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Profesor Pedro Laurel #615
+                            Mocanero #825 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiantes</span>
+                            <span>Ingenieria en Sistemas</span>
+                            <span>Programacion </span>
+                        </li>
+                    </ul>
+                    
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion" style="text-align: center;">
+            <h2>CURRICULUM</h2>
+    
+            <!-- Aquí va el código de las habilidades técnicas y profesionales -->
+            <!-- Botones de descarga de CV -->
+            <h1 style="margin-bottom: 20px;">Brenda Ramirez</h1>
+            <button style="margin-bottom: 20px;" onclick="descargarCV1()">Descargar CV 1</button>
+            <h1 style="margin-bottom: 20px;">Norma Burciaga</h1>
+            <button onclick="descargarCV2()">Descargar CV 2</button>
+        </div>
+    
+        <script>
+            function descargarCV1() {
+                window.location.href = "https://www.canva.com/design/DAGEf46HjWc/gHQHKtBFTXMM81wW8IRddg/view";
+            }
+    
+            function descargarCV2() {
+                window.location.href = "https://www.canva.com/design/DAGEf46HjWc/gHQHKtBFTXMM81wW8IRddg/view";
+            }
+        </script>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+    <h2>INFORMACION</h2>
+    <div class="fila">
+        <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+                <h4>ITPN</h4>
+                <span class="casa">INSTITUTO TECNOLOGICO DE PIEDRAS NEGRAS</span>
+                <span class="fecha">2016 - 2024</span>
+                <p>En este año tome el curso de Programacion Web
+                    donde estoy aprendiendo grandes herramientas
+                    para llevar a cabo un excelente trabajo y con lo mas
+                    actual de informacion respecto a la materia
+                    </p>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+            </div>
+            <div class="item izq">
+                <h4>CBTIS 34</h4>
+                <span class="casa">PREPARATORIA TECNICA</span>
+                <span class="fecha">2014 - 2017</span>
+                <p>Carrera de programacion, lenguajes y sistemas operativos</p>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+                <h4>RECEPCIONISTA</h4>
+                <span class="casa">QUEVE</span>
+                <span class="fecha">2022 </span>
+                <p>Programe un pequeño programa para una estetica para agendar citas </p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+            <div class="item der">
+                <h4>RECEPCIONISTA</h4>
+                <span class="casa">CLINICA MEXICO</span>
+                <span class="fecha">2017- PRESENTE</span>
+                <p>Se realizo un programa de citas para el consultorio de medicina interna</p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- SECCION PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+<div class="contenido-seccion">
+    <h2>PORTFOLIO</h2>
+    <div class="galeria">
+        <div class="proyecto">
+            <img src="img/quiz.JPG" alt="">
+            <div class="overlay">
+                <h3>QUIZ CUESTION</h3>
+                <p>Preguntas y Respuestas</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/clima.png" alt="">
+            <div class="overlay">
+                <h3>CLIMA API</h3>
+                <p>App Metereologico</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/portafolio.JPG" alt="">
+            <div class="overlay">
+                <h3>PORTAFOLIO</h3>
+                <p>Diseño Creativo de Sitio web Responsivo</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/p4.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografía</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/p5.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografía</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/p6.jpg" alt="">
+            <div class="overlay">
+                <h3>Diseño Creativo</h3>
+                <p>Fotografía</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+<div class="contenido-seccion">
+    <h2>CONTACTO</h2>
+    <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+            <form action=https://formspree.io/f/mvoeljvn method="POST">
+                <input type="text" name="nombre" placeholder="Tú Nombre">
+                <input type="tel" name="telefono" placeholder="Número telefónico">
+                <input type="email" name="_replyto" placeholder="Dirección de correo">
+                <input type="text" name="tema" placeholder="Tema">
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                <button type="submit">
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </form>
+        </div>
+        <!-- Mapa -->
+        <div class="col">
+            <a href="https://maps.app.goo.gl/pDs919Q9Z5x5HTfW6" target="_blank">
+                <img src="img/direccion.JPG" alt="">
+            </a>
+            <div class="info">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Mocanero #825 año 2000 Piedras Negras Coahuila
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        Llamanos: 8781572622 o 8781380785
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        Email: aracely.brenda@hotmail.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- footer -->
+<footer>
+<a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+<div class="redes">
+    <a href="#"><i class="fa-solid fa-arrow-alt-circle-up"></i></a>
+    <a href="https://twitter.com/ahide_burciaga"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://secure.skype.com/portal/overview"><i class="fa-brands fa-skype"></i></a>
+    <a href="https://mx.linkedin.com/in/norma-ahide-burciaga-baez-b47a7b232"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com/channel/UCVtGH8PfkAUey_-ohq6k-4Q"><i class="fa-brands fa-youtube"></i></a>
+</div>
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
